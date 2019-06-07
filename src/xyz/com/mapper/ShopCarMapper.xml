@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.com.mapper.ShopCarMapper">
+	<cache />
+	<select id="queryAllShops" resultType="xyz.com.entity.Shop">
+		SELECT * FROM `shopcar`
+	</select>
+	
+	<insert id="insertShopCar" parameterType="xyz.com.entity.Shop">
+		INSERT INTO `shopcar` VALUES(#{id}, #{username}, #{pic}, #{desc}, #{color}, #{size}, #{price}, #{num}, null)
+	</insert>
+	
+	<select id="queryShopsByPage" resultType="xyz.com.entity.Shop" parameterType="Integer">
+		SELECT * FROM `shopcar` ORDER BY `id` DESC limit #{begin}, 5 
+	</select>
+	
+	<select id="queryCount" resultType="Integer">
+		SELECT COUNT(*) FROM `shopcar`
+	</select>
+	
+	<select id="queryShopCarById" resultType="xyz.com.entity.Shop" parameterType="Integer">
+		SELECT 
+		`id`, `username`, `pic`, `desc`, `color`, `size`, `price`, `num`
+		FROM `shopcar`
+		<where>
+			id = #{id} limit 1
+		</where>
+	</select>
+	
+	<delete id="deleteById" parameterType="Integer">
+		DELETE FROM `shopcar` where `id` = #{id}
+	</delete>
+	
+	<delete id="deleteAllShops">
+		DELETE FROM `shopcar`
+	</delete>
+	
+</mapper>

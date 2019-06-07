@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.com.mapper.CommentMapper">
+	
+	<cache />
+	<select id="queryAllComments" resultType="xyz.com.entity.Comment">
+		SELECT * FROM `comments`
+	</select>
+	
+	<select id="queryCommentsById" resultType="xyz.com.entity.Comment" parameterType="Integer">
+		SELECT * FROM `comments`
+		<where>
+			`id` = #{id}
+		</where>
+	</select>
+	
+	<insert id="insertComment" parameterType="xyz.com.entity.Comment">
+		INSERT INTO `comments` values('${id}', '${comment}')
+	</insert>
+	
+</mapper>

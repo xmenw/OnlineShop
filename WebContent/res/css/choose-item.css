@@ -1,0 +1,353 @@
+*{
+  margin:0px;
+  padding: 0px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+/*顶部搜索区域*/
+.nz-top{
+	width: 1000px;
+	height: 65px;
+  margin: 10px auto;
+	/*border:1px solid black;*/
+}
+.nz-top .nz-top-left{
+	display: inline-block;
+}
+.nz-top .nz-top-left img{
+  width: 150px;
+  height: 60px;
+  vertical-align: -15px;
+}
+.nz-top .nz-top-right{
+	display: inline-block;
+	position: relative;
+  float: right;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.nz-top .nz-top-right .input input{
+   display: inline-block;
+   width: 400px;
+   height: 30px;
+   text-indent: 0.3em;
+   outline: none;
+   margin-right: 80px;
+   border:2px solid #6ac1d4;
+}
+.nz-top .nz-top-right .button button{
+   position: absolute;
+   top:0px;
+   right: 20px;
+   width: 60px;
+   height: 34px; 
+   border:none;
+   outline: none;
+   background-color: #6ac1d4;
+}
+.cente{
+  width: 1020px;
+  height: 360px;
+  margin: 0 auto;
+  border:1px solid #c0c0c0;
+}
+.cente .pic{
+  float: left;
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  height: 360px;
+  /*border:1px solid black;*/
+}
+.cente .fdj{
+  position: absolute;
+  top:0px;
+  left:-200px;
+  cursor: move;
+  width: 200px;
+  height: 144px;
+  background-color: rgba(255,0,0,0.5);
+}
+.cente .bpic{
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top:85px;
+  left: 670px;
+  width: 500px;
+  height: 360px;
+  border:1px solid blue;
+  overflow: hidden;
+  background: url("../image/cloth4.jpg");
+  background-size: 1250px 900px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.cente .pic img{
+  width: 500px;
+  height: 360px;
+}
+.cente .xinxi{
+  float: right;
+  width: 500px;
+  height: 360px;
+  /*border:1px solid black;*/
+}
+.cente .xinxi .name{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  /*border:1px solid black;*/
+}
+.cente .xinxi .list{
+  width: 100%;
+  height: 310px;
+}
+.cente .xinxi .list li{
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+}
+.cente .xinxi .list .jg{
+  width: 100%;
+  background-image:linear-gradient(to bottom,rgba(100,161,214,0.5) 0, rgba(100,161,214,0.1) 100%);
+}
+.cente .xinxi .list li span:nth-child(1){
+  display: inline-block;
+  margin-left: 5px;
+  width: 65px;
+}
+.cente .xinxi .list .jg  li span:nth-child(2){
+  /*margin-left: 50px;*/
+  text-align: center;
+}
+.cente .xinxi .list .jg  li:nth-child(3) a{
+  display: inline-block;
+  text-align: center;
+  color: #f40;
+  text-decoration: underline dashed;
+  margin-left:10px;
+}
+.cente .xinxi .list .jg  .price{
+  text-decoration: line-through;
+}
+.cente .xinxi .list .list-ul .size{
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 30px;
+  border:1px solid #c0c0c0;
+  width: 40px;
+  height: 30px;
+}
+#size .checked {
+  border:2px solid #64a1d6;
+}
+.cente .xinxi .list .list-ul .size:hover{
+  border:2px solid #64a1d6;
+}
+#color em.checked {
+  border:2px solid #64a1d6;
+}
+.cente .xinxi .list .list-ul li em{
+  display: inline-block;
+  font-style: normal;
+  box-sizing: border-box;
+  border:1px solid #c0c0c0;
+  margin-left: 5px;
+  width:50px;
+  height: 25px;
+  text-align: center;
+  line-height: 22px; 
+  cursor: pointer;
+}
+.cente .xinxi .list .list-ul li em:hover{
+  border:2px solid #64a1f6;
+}
+.cente .xinxi .list .cnt{
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  /*border:1px solid black;*/
+} 
+.cente .xinxi .list .cnt span:nth-child(1){
+  display: inline-block;
+  margin-left: 5px;
+  width: 65px;
+}
+.cente .xinxi .list .cnt span:nth-child(2n){
+  display: inline-block;
+  height: 23px;
+  width: 20px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  border:1px solid #c3c3c3;
+  background-color: #e3e3e3;
+}
+.cente .xinxi .list .cnt input{
+  height: 22px;
+  text-align: center;
+  line-height: 30px;
+  width: 32px;
+}
+.cente .xinxi .list .button{
+  position: relative;
+  top:10px;
+}
+.cente .xinxi .list .button button{
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  border:none;
+  outline:none;
+  background-color: #64a1f6;
+}
+.introduce{
+  width: 1020px;
+  height: 300px;
+  /*float:left;*/
+  position: relative; 
+  top:10px;
+  margin: 0 auto;
+  border-top:1px solid #c0c0c0;
+  /*border:1px solid black;*/
+}
+.wrap {
+	position: relative;
+	width: 100%;
+	min-height: 70px;
+	margin-top: 10px;
+}
+.comment {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	min-height: 70px;
+	padding: 3px;
+	border: 1px solid black;
+	font-size: 14px;
+	line-height: 14px;
+}
+.form {
+	height: 50px;
+	padding: 3px;
+}
+.right {
+	position: absolute;
+	right: 0;
+	width: 80px;
+	height: 30px;
+	margin-top: 10px;
+	border: none;
+	outline: none;
+	background-color: #64a1f6;
+	border-radius: 5px;
+}
+.textNum {
+	position: absolute;
+	bottom: 3px;
+	right: 5px;
+}
+.introduce .ul{
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+}
+.introduce .ul li{
+  box-sizing: border-box;
+  float: left;
+  cursor: pointer;
+  width: 90px;
+  text-align:center;
+  line-height: 30px;
+  height: 30px;
+  border-right:1px solid #00f;
+  background-color: #64a1d6;
+}
+.introduce .ul li:nth-child(1){
+  background-color: #fff;
+  border-top:2px solid #34a1d6;
+}
+.introduce .intro{
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid #000;
+}
+.introduce .intro .commentText{
+  height: 80px;
+  margin: 10px 0px;
+  padding: 0 5px;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+}
+.intro .commentText .commentLeft {
+	float: left;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+}
+.commentLeft img {
+	border-radius: 50%;
+}
+.intro .commentText .commentRight {
+	float: right;
+	height: 100%;
+	width: 90%;
+}
+.commentRight .comText{
+	height: 70%;
+}
+.commentRight .date{
+	font-size: 12px;
+    color: #B0B0B0;
+}
+.tip{
+  display: none;
+  position: absolute;
+  z-index: 3;
+  text-align: center;
+  line-height: 80px;
+  width: 200px;
+  height: 80px;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -300px;
+  background-color: rgba(100,161,214,0.7);
+  border-radius: 15px;
+  border:1px solid black;
+}
+.reback{
+  position: absolute;
+  left: 20px;
+  top:2px;
+  font-size: 20px;
+  color: #64a1d6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

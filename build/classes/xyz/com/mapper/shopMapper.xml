@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xyz.com.mapper.ShopMapper">
+
+	<cache />
+	<select id="queryAllShops" resultType="xyz.com.entity.Shop">
+		SELECT * FROM `shops`
+	</select>
+	
+	<select id="queryAllShopsByPrice" resultType="xyz.com.entity.Shop" parameterType="Integer">
+		SELECT * FROM `shops`
+		<if test="_parameter == 1">
+			 ORDER BY `price` ASC
+		</if>
+		<if test="_parameter == 2">
+			 ORDER BY `price` DESC
+		</if>
+	</select>
+	
+	<select id="queryShopById" resultType="xyz.com.entity.Shop" parameterType="Integer">
+		SELECT * FROM `shops`
+		<where>
+			`id` = #{id}
+		</where>
+	</select>
+	
+	<select id="queryShopNum" resultType="Integer" parameterType="Integer">
+		SELECT `num` FROM `shops` 
+		<where>
+		 	`id` = #{id}
+		 </where>
+	</select>
+	
+	<insert id="insertShop" parameterType="xyz.com.entity.Shop">
+		INSERT INTO `shops` VALUES(#{id}, #{username}, #{pic}, #{desc}, #{color}, #{size}, #{price}, #{num})
+	</insert>
+	
+	<update id="updateNum" parameterType="xyz.com.entity.Shop">
+		UPDATE `shops` SET `num` = `num` - #{num} 
+		<where> 
+			id = #{id}
+		</where>
+	</update>
+	
+	<update id="increameNum" parameterType="xyz.com.entity.Shop">
+		UPDATE `shops` SET `num` = `num` + #{num} 
+		<where> 
+			id = #{id}
+		</where>
+	</update>
+	
+</mapper>

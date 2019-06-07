@@ -1,0 +1,10 @@
+进入购物车
+进入购物车
+进入购物车
+用户当前正在浏览5件商品，分别为: [Shop [id=13, username=aaa, pic=./res/image/cloth17.jpg, desc=夏季男装半袖体恤冰丝春装衣服韩版, color=白色, size=XL, price=79.0, num=1], Shop [id=11, username=aaa, pic=./res/image/cloth15.jpg, desc=束脚运动裤(棉质)优衣库UNIQLO, color=黑色, size=L, price=199.0, num=1], Shop [id=9, username=aaa, pic=./res/image/cloth13.jpg, desc=PINLI品立男装中国风印花套头连帽卫衣潮, color=红色, size=XL, price=279.0, num=1], Shop [id=8, username=aaa, pic=./res/image/3.jpg, desc=皮毛一体外套中长款宽松进口托斯卡纳羊羔毛皮草大衣, color=棕色, size=M, price=568.0, num=1], Shop [id=3, username=aaa, pic=./res/image/cloth9.jpg, desc=慵懒复古红色印花衬衫, color=红色, size=XXL, price=256.0, num=1]]
+进入购物车
+进入购物车
+用户当前正在浏览5件商品，分别为: [Shop [id=13, username=aaa, pic=./res/image/cloth17.jpg, desc=夏季男装半袖体恤冰丝春装衣服韩版, color=白色, size=XL, price=79.0, num=1], Shop [id=11, username=aaa, pic=./res/image/cloth15.jpg, desc=束脚运动裤(棉质)优衣库UNIQLO, color=黑色, size=L, price=199.0, num=1], Shop [id=9, username=aaa, pic=./res/image/cloth13.jpg, desc=PINLI品立男装中国风印花套头连帽卫衣潮, color=红色, size=XL, price=279.0, num=1], Shop [id=8, username=aaa, pic=./res/image/3.jpg, desc=皮毛一体外套中长款宽松进口托斯卡纳羊羔毛皮草大衣, color=棕色, size=M, price=568.0, num=1], Shop [id=3, username=aaa, pic=./res/image/cloth9.jpg, desc=慵懒复古红色印花衬衫, color=红色, size=XXL, price=256.0, num=1]]
+进入购物车
+进入购物车
+用户当前正在浏览3件商品，分别为: [Shop [id=8, username=aaa, pic=./res/image/3.jpg, desc=皮毛一体外套中长款宽松进口托斯卡纳羊羔毛皮草大衣, color=棕色, size=M, price=568.0, num=1], Shop [id=3, username=aaa, pic=./res/image/cloth9.jpg, desc=慵懒复古红色印花衬衫, color=红色, size=XXL, price=256.0, num=1], Shop [id=1, username=aaa, pic=./res/image/cloth2.jpg, desc=拼接加厚毛衣秋冬2018新款套头宽松上衣, color=红色, size=XXL, price=69.0, num=1]]

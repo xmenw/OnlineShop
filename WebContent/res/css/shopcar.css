@@ -1,0 +1,344 @@
+*{
+	margin:0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+.shopcar{
+	width: 990px;
+	height: 953px;
+	margin: 0 auto;
+	/*border:1px solid black;*/
+}
+.shopcar  .shopcar-top{
+	width: 990px;
+	height: 95px;
+	/*border:1px solid black;*/
+}
+.shopcar  .shopcar-top .shopcar-top-left{
+	display: inline-block;
+}
+.shopcar  .shopcar-top .shopcar-top-left img{
+    width: 150px;
+    height: 60px;
+    vertical-align: -15px;
+}
+.shopcar  .shopcar-top .shopcar-top-left span{
+	font-size: 20px;
+	font-weight: 600;
+}
+.shopcar  .shopcar-top .shopcar-top-right{
+	display: inline-block;
+	position: relative;
+    float: right;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.shopcar  .shopcar-top .shopcar-top-right .inputh input{
+   display: inline-block;
+   width: 400px;
+   height: 30px;
+   text-indent: 0.5em;
+   outline: none;
+   margin-right: 80px;
+   border:2px solid #6ac1d4;
+}
+.shopcar  .shopcar-top .shopcar-top-right .button button{
+   position: absolute;
+   top:0px;
+   right: 20px;
+   width: 60px;
+   height: 34px; 
+   border:none;
+   outline: none;
+   background-color: #6ac1d4;
+}
+.shopcar .shopcar-bot{
+	width: 990px;
+	height: 400px;
+	/*border:1px solid black;*/
+}
+.shopcar .shopcar-bot .shopcar-bot1{
+	width: 990px;
+	height: 33px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #f3f3f3;
+}
+.shopcar .shopcar-bot .shopcar-bot2{
+	width: 990px;
+	height: 50px;
+	font-size: 14px;
+}
+.shopcar .shopcar-bot .shopcar-bot3{
+	width: 990px;
+	height: 38px;
+}
+.shopcar .shopcar-bot .shopcar-bot4{
+	width: 960px;
+	height: 100px;
+	padding: 15px;
+	background-color: #f3f3f3;
+	border:1px solid #6ac1d4;
+}
+.shopcar .shopcar-bot .shopcar-bot5{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	border:1px solid #6ac1d4;
+	background-color: #f3f3f3;
+}
+.pagination {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px auto;
+  border-radius: 4px;
+}
+.pagination > li {
+  display: inline;
+}
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 2;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .ul li{
+	float: left;
+	margin-right: 30px;
+	line-height: 33px;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .ul li span{
+	color: red;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .ul li:nth-child(2n){
+	color: #3c3c3c;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .right li{
+	float: right;
+	font-size: 14px;
+	line-height: 33px;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .right li a{
+	margin-left: 10px;
+	background-color: #6ac1d4;
+	padding: 3px 15px;
+	margin-right: 10px;
+	color: #000;
+}
+.shopcar .shopcar-bot .shopcar-bot1 .right li span{
+	color: red;
+}
+.shopcar .shopcar-bot .shopcar-bot2 .shopcar-bot2-left ul li{
+	float: left;
+	margin-right: 80px;
+	line-height: 50px;
+}
+.shopcar .shopcar-bot .shopcar-bot2 .shopcar-bot2-right ul li{
+	float: right;
+	margin-right: 70px;
+	line-height: 50px;
+}
+.shopcar .shopcar-bot .shopcar-bot3 .shop ul li{
+	line-height: 38px;
+	height: 38px;
+}
+.shopcar .shopcar-bot .shopcar-bot3 .shop ul li a{
+    font-size: 14px;	
+	color: #000;
+}
+.shopcar .shopcar-bot .shopcar-bot3 .shop ul li a:hover{
+	color: #6ac1d4;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop2{
+	width: 302px;
+	height: 130px;
+	/*border:1px solid black;*/
+}
+.shopcar .shopcar-bot .shopcar-bot4 ul li{
+    float: left;
+    line-height: s30px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop2 img{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop2 span{
+	display: inline-block;
+	width: 186px;
+	height: 36px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop2 span a{
+	color: #000;
+	font-size: 14px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop2 span a:hover{
+    color: #6ac1d4;
+    text-decoration: underline; 
+}
+span{
+	color: #f00;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop3 p{
+	font-size: 14px;
+	color: #9c9c9c;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop4 p{
+	font-size: 14px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop4 .unde{
+	color: #9c9c9c;
+	text-decoration: line-through;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop5 a{
+	background-color: #f3f3f3;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop5 input{
+	width: 25px;
+}
+a{
+	color: #000;
+}
+a:hover{
+	color: #6ac1d4;
+	text-decoration: underline;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop7{
+	font-size: 14px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .left li{
+	float: left;
+	margin-right: 10px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .right li{
+	float: right;
+	margin-right: 25px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop7 .hid{
+	display: none;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop7 .ul li{
+	margin-right: 0px;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop7 .ul li a{
+	display: inline-block;
+	width: 70px;
+	margin-right: 0px;
+	text-align: left;
+}
+.shopcar .shopcar-bot .shopcar-bot4 .shop7:hover .hid{
+	display: block;
+}
+.shopcar .shopcar-bot .shopcar-bot5 .left li{
+	float: left;
+	margin-right: 20px;
+}
+.shopcar .shopcar-bot .shopcar-bot5 .right li{
+	float: right;
+	margin-right: 20px;
+}
+.shopcar .shopcar-bot .shopcar-bot5 .right li a{
+	display: inline-block;
+	text-align: center;
+	background-color: #9c9c9c;
+	width: 100px;
+	height: 50px;
+}
+.shopcar-bot .shopcar-bot1 .ul .xian{
+	font-size: 12px;
+}
+.shopcar-bot .shopcar-bot1 .ul li:nth-child(2n-1):hover{
+	border-bottom: 2px solid #6ac1d4;
+}
+.shopcar-bot .shopcar-bot1 .ul li .cur:hover{
+    cursor: not-allowed;
+}
+.shopcar-bot .shopcar-bot1 .ul li:nth-child(1){
+    border-bottom: 2px solid #6ac1d4;
+}
+.shopcar-bot .shopcar-bot1 .ul li:nth-child(2n-1) a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.shopcar .shopcar-bot .shopcar-bot5 .right .bill{
+	margin-right: 0px;
+}
+.nu{
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	color: #f45;
+	text-align: center;
+	border:none;
+	outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
