@@ -14,3 +14,27 @@
   2. 上一个系统不支持事务，本系统新添了事务支持。
   3. 本系统支持国际化（只包括重要的功能）。
   4. 本系统支持面向切面编程，主要是记录用户在购物车界面的操作日志。
+## 效果
++ 首页
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/index.JPG)
+
++ 商品列表页
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/nanzhuang.JPG)
+
++ 商品详情页 + 评论页 
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/detail.JPG)
+
++ 搜索
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/search.JPG)
+
++ 登录页
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/login.JPG)
+
++ 注册页 
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/regist.JPG)
+
++ 购物车页
+![image](https://github.com/xmenw/OnlineShop/blob/master/image/shopcar.JPG)
+
+
+
